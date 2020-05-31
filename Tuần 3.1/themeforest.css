@@ -1,0 +1,78 @@
+html body{
+    width: 100%;
+    margin: 0;
+    
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+.text1{
+    font-size:122px;
+    margin-top: 115px;
+    margin-left: 129px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.text2{
+    font-size:122px;
+    font-weight: 700;
+    margin-top: -24px;
+    margin-left: 135px;
+    color: #ff2c54;
+}
+.kengang{
+    margin-top: 19px;
+    margin-left: 129px;
+    width: 22%;
+    height: 5px;
+    background-color: #ff2c54;
+}
+.text3{
+    font-family: Montserrat;
+    font-size:25px;
+    margin-top: 50px;
+    margin-left: 129px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.bo{
+    width: 100%;
+    margin-top: 10px;
+}
+ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.bo .dong1{
+    margin-left: 110px;
+    margin-top: 5px;
+    width: 100%;
+    transition: 0.5s;
+}
+.bo .dong1 .icon{
+    display: inline;
+    color: rgb(62, 105, 245);
+    opacity: 0;
+}
+.bo .dong1 .text{
+    display: inline;
+    color: #ffffff;
+    font-size:20px;
+    font-family: Montserrat;
+    opacity: 1;
+}
+.bo .dong1:hover .icon{
+    opacity: 1;
+}
+.bo .dong1:hover .text{
+    opacity: 1;
+}
+.bo .dong1:hover  {
+    padding-left: 23px;
+    transition: 0.5s;
+}

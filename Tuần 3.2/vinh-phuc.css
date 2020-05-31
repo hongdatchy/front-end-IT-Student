@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100%;
+    height: 140px;
+}
+.logo .anh{
+    width: 990px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo .anh img{
+    width: 990px;
+    height: 140px;
+}
+.bo{
+    width: 990px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bo:hover{
+    background-image: -webkit-linear-gradient(top, #59a7f1, #86c4fe);
+}
+.menutop{
+    display: flex;
+    width: 100%;
+    height: 34px;
+    background-image: -webkit-linear-gradient(top, #d4eaf8,#ddf0fc,#b2d8f1);
+    border-bottom: #1c87d6 solid 1px;
+}
+.menutop .left{
+    width: 850px;
+    height: 35px;
+}
+.menutop .left > ul{
+    list-style: none;
+    display: flex;
+    height: 35px;
+}
+.menutop .left > ul >li{
+    height: 35px;
+    position: relative;
+}
+.menutop .left > ul .trangchu{
+    width: 100px;
+}
+.menutop .left > ul .tintuc{
+    width: 100px;
+}
+.menutop .left > ul .chinhtri{
+    width: 200px;
+}
+.menutop .left > ul .congdan{
+    width: 100px;
+}
+.menutop .left > ul .doanhnghiep{
+    width: 150px;
+}
+.menutop .left > ul .dukhach{
+    width: 100px;
+}
+.menutop .left > ul .gioithieu{
+    width: 100px;
+}
+.menutop .left > ul >li .tren{
+    height: 35px;
+}
+.menutop .left > ul >li:hover .tren{
+    background-image: -webkit-linear-gradient(top, #aedcfe, #55a5ea, #1c87d6);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    border-radius: 5px;
+    height: 35px;   
+    border: #1c87d6 solid 1px;
+}
+.menutop .left > ul >li:hover .tren a{
+    color: white;
+    line-height: 31px;
+}
+.menutop .left > ul >li .tren a{
+    text-decoration: none;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menutop .left > ul >li .duoi{
+    width: 990px;
+    position: absolute;
+    height: 35px;
+    visibility: hidden;
+    opacity: 0;
+    top:35px;
+}
+.menutop .left > ul >li:hover .duoi{
+    visibility: visible;
+    opacity: 1;
+}
+.menutop .left > ul .trangchu .duoi{
+}
+.menutop .left > ul .tintuc .duoi{
+    left: -100px;
+    right: 100px;
+    
+}
+.menutop .left > ul .chinhtri .duoi{
+    left: -200px;
+    right: 200px;
+}
+.menutop .left > ul .congdan .duoi{
+    left: -400px;
+    right: 400px;
+}
+.menutop .left > ul .doanhnghiep .duoi{
+    left: -500px;
+    right: 500px;
+}
+.menutop .left > ul .dukhach .duoi{
+    left: -650px;
+    right: 650px;
+}
+.menutop .left > ul .gioithieu .duoi{
+    left: -750px;
+    right: 750px;
+}   
+.menutop .left > ul >li .duoi > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+.menutop .left > ul >li .duoi > ul > li{
+    margin-right: 10px;
+}
+.menutop .left > ul >li .duoi > ul > li a{
+    text-decoration: none;
+    color: #444444;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.menutop .left > ul >li .duoi > ul > li a:hover{
+    color: white;
+}
+marquee{
+    width: 990px;
+}
+.menutop .right{
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.menutop .right a{
+    color: #444444;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Tahoma,Helvetica,sans-serif;
+}
+.menutop .right a:hover{
+    text-decoration: underline;
+}

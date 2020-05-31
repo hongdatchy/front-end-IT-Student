@@ -1,0 +1,37 @@
+body,html{
+    margin: 0;
+    height: 100%;
+}
+
+.ds{
+    background-image: url(7.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.ds ul{
+    list-style: none;
+    
+    margin: 0;
+}
+.ds .icon{
+    display: inline;
+    font-size: 20px;
+    opacity: 0;
+    color: blue;
+}
+.ds .text{
+    font-size: 20px;
+    color:rgb(13, 27, 148);
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ds li:hover .icon{
+    opacity: 1;
+    transition-delay: 0.4s;
+    transition: 0.8s;
+}
+.ds li:hover{
+    margin-left: 20px;
+    transition: 0.4s;
+}
+

@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+.bo{
+    /* position: relative; */
+    width: 70%;
+    overflow: hidden;
+    margin-left: -30px;
+}
+.bo .anh img{
+    width: 100%;
+    transition: 0.8s;
+}
+.bo:hover .anh img{
+    margin-left: 30px;
+    transition: 0.8s;
+}
+.bo .text1{
+    position: absolute;
+    color: white;
+    top: 55px;
+    left: 90px;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 500;
+    transition:0.4s;
+}
+.bo:hover .text1{
+    opacity: 0;
+    transition:0.4s;
+}
+.bo .text2{
+    position: absolute;
+    top: 150px;
+    left: 410px;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 500;
+    overflow: hidden;
+}
+.bo .text2 div{
+    top: 40px;
+    position: relative;
+    color: white;
+    transition: 0.8s;
+}
+.bo:hover .text2 div{
+    top: 0px;
+    transition: 0.8s;
+}
+.bo .text3{
+    position: absolute;
+    top: 190px;
+    left: 465px;
+    font-family: verdana;
+    overflow: hidden;
+}
+.bo .text3 .trai{
+    font-size: 14px;
+    color: tomato;
+    transition: 0.8s;
+    top: 40px;
+    position: relative;
+}
+.bo .text3 .phai{
+    margin-left: 2px;
+    font-size: 13px;
+    color:white;
+    transition: 0.8s;
+    top: 40px;
+    position: relative;
+}
+.bo:hover .text3 .trai{
+    transition: 0.8s;
+    top:0;
+}
+.bo:hover .text3 .phai{
+    transition: 0.8s;
+    top:0;
+}

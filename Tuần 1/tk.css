@@ -1,0 +1,67 @@
+.benner{
+    display: flex;
+    width:1250px;
+    height:545px;
+    background-color:rgb(239, 239, 239);
+    margin: auto;
+}
+.benner .c1{
+    width: 246px;
+}
+.benner .c1 .hang1{
+    display: flex;
+    height: 34px;
+}
+.benner .c1 .hang1 .trai{
+    width: 35px;
+    
+}
+.benner .c1 .hang1 .trai i{
+    padding-left: 15px;
+    margin-top: 10px;
+    display: block;
+    color: rgb(201, 187, 187);
+}
+.benner .c1 .hang1 .phai{
+    
+    width: 211px;
+}
+.benner .c1 .hang1 .phai span{
+    color: rgb(14, 12, 12);
+    padding-top: 6px;
+    padding-left: 5px;
+    display: block;
+    font-size: 15px;
+}
+.benner .c1 a{
+    text-decoration: none;
+}
+.benner .c2{
+    width: 584px;
+}
+.benner .c2 .tren{
+    height: 365px;
+}
+.carousel-indicators{
+    display: none;
+}
+.carousel img{
+    height: 365px;
+    
+}
+.benner .c2 .duoi{
+    display: flex;
+    height: 213px;
+}
+.benner .c2 .duoi .motnua{
+    width: 292px;
+}
+.benner .c3{
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.benner .c3 .saudiv img{
+    height: 100%;
+    width: 210px;
+}

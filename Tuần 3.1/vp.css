@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width:100%;
+    height: 400px;
+    position: relative;
+}
+.top .logo{
+    width: 990px;
+    margin: auto;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* end logo */
+.menu{
+    display: flex;
+    margin: auto;
+    width: 990px;
+    height: 50px;
+}
+.menu .left{
+    width: 800px;
+}
+.menu .right{
+    position: relative;
+    text-align: center;
+    height: 30px;
+    width: 190px;
+}
+.menu .right .text{
+    position: absolute;
+    height: 30px;
+    width: 190px;
+    color: black;
+    line-height: 30px;
+}
+.menu  .left  ul{
+    display: flex;
+    list-style: none;
+}
+.item{
+    position: relative;
+    width: 115px;
+    height: 100px;
+}
+.item .layer1{
+    height: 30px;
+}
+.item .layer1 a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+.item:hover .layer1 a{
+    color: white;
+    background-color: #459de5;
+    width: 90%;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 5%;
+    display: block;
+    border: 1px solid rgb(97, 122, 235);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+}.item .layer2{
+    width: 990px;
+    position: absolute;
+    height: 30px;
+}
+.item .layer2 ._4a{
+    margin-top: 10px;
+    opacity: 0;
+    height: 30px;
+}
+.item .layer2 a{
+    text-decoration: none;
+    width: 990px;
+    color: black;
+}
+.item:hover .layer2  ._4a{
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+.mau{
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
+}
+.mau1{
+    width: 990px;
+    height: 30px;
+    top: 140px;
+    position: absolute;
+    background-color: #cce7f7;
+}
+.mau2{
+    top: 170px;
+    width: 990px;
+    height: 30px;
+    background: #86c4fe;
+    position: absolute;
+}

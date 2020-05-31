@@ -1,0 +1,1518 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --mau1:#b4b8c1;
+    --mau2:#858585;
+    --mau3:#1283c5;
+    --mau4:#c51515;
+    --mau5:#dbdbdb;
+    --mau6:#f01945;
+    --mau7:#000a16;
+    --mauhovermenu:#3ba5a3;
+    --font1:'Segoe UI';
+    --maubackground:#1a335b;
+    --maubackground2:#159392;
+    --maubackground3:#f4f4f4;
+    --maubackground4:#e8e8e8;
+    --maubackground5:#35b139;
+    --maubackground6:#d2d2d2;
+    --maubackground7:#7e7e7e;
+    --maubackground8:#1184c7;
+}
+.bo{
+    background-image: url(images/1_01.jpg);
+    background-size: cover;
+    height: 45px;
+}
+.bo .logo{
+    display: flex;
+    margin-left: 84%;
+}
+.bo .logo .img1{
+    margin-top: -18px;
+    width: 34px;
+}
+.bo .logo .text{
+    margin-left: 3%;
+    margin-top: 7%;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.bo .logo .text a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+.bo .logo .icon1{
+    margin-left: 8%;
+    margin-top: 7%;
+}
+.bo .logo .icon1 a{
+    color: white;   
+}
+.bo .logo .icon2{
+    margin-left: 6%;
+    margin-top: 7%;
+}
+.bo .logo .icon2 a{
+    color: white;
+}
+.bo .logo .img2{
+    width: 24px;
+    height: 24px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.bo2{
+    background-color: white;
+    height: 56px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    
+}
+.bo2 .cap1{
+    width: 100%;
+}
+.bo2 .cap1>ul{
+    width: 960px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: white;
+    
+}
+.bo2 .cap1>ul>li{
+    display: flex;
+    height: 56px;
+    position: relative;
+}
+.bo2 .cap1>ul>li img{
+    width: 32px;
+    height: 30px;
+    margin-top: 10px;
+}
+.bo2 .cap1>ul>li .text{
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 56px;
+    color:#858585;
+    margin-left: 10px;
+}
+.bo2 .cap1>ul>li:hover .text{
+    color: #159392;
+}
+.bo2 .cap1>ul>li .cap2{
+    position: absolute;
+    left:-120px;
+    top:56px;
+    height: 39px;
+    width: 450px;
+    visibility: hidden;
+}
+.bo2 .cap1>ul>li .cap2::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid white;
+    position: absolute;
+    left:230px;
+}
+.bo2 .cap1>ul>li .cap2>ul{
+    list-style: none;
+    height: 39px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.bo2 .cap1>ul>li .cap2>ul>li{
+    color: white;
+    left: 3px;
+    font-size: 11px;
+    line-height: 39px;
+    text-transform: uppercase;
+    display: flex;
+}
+.bo2 .cap1>ul>li .cap2>ul>li:hover{
+    color:#159392;
+}
+.bo2 .cap1>ul>li .cap2>ul>li::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color:white;
+    border-radius: 20px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+.bo2 .cap1>ul>li .cap2>ul>li:hover::before{
+    background-color:#159392;
+}
+.bo2 .cap1>ul>li:hover .cap2{
+    visibility: visible;
+}
+.bo2 .cap1>ul>li:hover .cap2>ul>li .cap3{
+    visibility: hidden;
+}
+.bo2 .cap1>ul>li .cap2>ul>li .cap3{
+    position: absolute;
+    margin-top: 39px;
+    width: 222px;
+    height: 197px;
+    background-color: white;
+    margin-left: -10px;
+}
+.bo2 .cap1>ul>li .cap2>ul>li .cap3 >ul{
+    list-style: none;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    padding-top: 11%;
+    display: block;
+}
+.bo2 .cap1>ul>li .cap2>ul>li .cap3>ul>li{
+    font-size: 13px;
+    line-height: 36px;
+    
+}
+.bo2 .cap1>ul>li .cap2>ul>li:hover .cap3{
+    visibility: visible;
+}
+hr{
+    width: 100%;
+}
+.bo2 .cap1>ul>li .cap2>ul>li .cap3::before{
+    content: "";
+    width: 100%;
+    height: 8px;
+    background-color: #149392;
+    position: absolute;
+}
+.bo2 .cap1>ul>li .cap2>ul>li .cap3::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #149392;
+    position: absolute;
+    top:-10px;
+    left:20px;
+}
+.bo2 .cap1>ul>li .cap2>ul>li .cap3 >ul>li a:hover{
+    color: #149392;
+}
+a{
+    text-decoration: none;
+    color: #494949;
+}
+/* hết menu */
+.bo3{
+    background: var(--maubackground);
+    height: 1870px;
+    width: 100%;
+}
+.bo3 .text{
+    width: 1333px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+}
+.bo3 .text .left{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.bo3 .text .left a{
+    color: var(--mau1);
+    font-family: var(--font1);
+    font-size: 12px;
+    text-decoration: none;
+}
+.bo3 .text .right{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    display: flex;
+    
+}
+.bo3 .text .right span{
+    color: var(--mau1);
+    font-family: var(--font1);
+    font-size: 14px;
+    right: 0;
+}
+.bo3 .text .right img{
+    margin-left: 15px;
+    margin-top: -2px;
+}
+/* hết text */
+.bo3 .content{
+    background-color: white;
+    height: 1600px;
+    width: 1333px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px;
+    position: relative;
+}
+.bo3 .content .left{
+    position: absolute;
+    top: 48px;
+    left: 64px
+}
+.bo3 .content .left .bang{
+    width: 800px;
+    height: 290px;
+}
+.bo3 .content .left .bang table{
+    border-collapse: collapse;
+    width: 800px;
+    height: 290px;
+    display: block;
+}
+.bo3 .content .left .bang table thead{
+    width: 800px;
+    height: 62px;
+    display: block;
+    background-color: var(--maubackground2);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.bo3 .content .left .bang table thead tr{
+    height: 31px;
+}
+.bo3 .content .left .bang table thead tr td{
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+.bo3 .content .left .bang table thead tr td span{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+}
+.bo3 .content .left .bang table thead tr .cot1{
+    width: 262px;
+}
+.bo3 .content .left .bang table thead tr .cot2{
+    width: 74px;
+}
+.bo3 .content .left .bang table thead tr .cot3{
+    width: 141px;
+}
+.bo3 .content .left .bang table thead tr .cot4{
+    width: 132px;
+}
+.bo3 .content .left .bang table thead tr .cot5{
+    width: 187px;
+}
+/* hết thead */
+.bo3 .content .left .bang table tbody{
+    width: 800px;
+    height: 228px;
+    display: block;
+    overflow-y: auto;
+}
+.bo3 .content .left .bang table tbody tr{
+    width: 800px;
+}
+.bo3 .content .left .bang table tbody tr td img{
+    position: absolute;
+    left:15px;
+    top:5px
+}
+.bo3 .content .left .bang table tbody tr td span{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: var(--font1);
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    color: var(--mau2);
+}
+.bo3 .content .left .bang table tbody tr td div{
+    color: rgb(44, 43, 43);
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+.bo3 .content .left .bang table tbody tr .cot1{
+    width: 262px;
+    height: 48px;
+    position: relative;
+    display: block;
+    border-right: 1px solid var(--mau5); 
+}
+.bo3 .content .left .bang table tbody tr .cot2{
+    width: 73px;
+    border-right: 1px solid var(--mau5); 
+}
+.bo3 .content .left .bang table tbody tr .cot3{
+    width: 74px;
+    border-right: 1px solid var(--mau5); 
+}
+.bo3 .content .left .bang table tbody tr .cot4{
+    width: 65px;
+    border-right: 1px solid var(--mau5); 
+}
+.bo3 .content .left .bang table tbody tr .cot5{
+    width: 70px ;
+    border-right: 1px solid var(--mau5); 
+}
+.bo3 .content .left .bang table tbody tr .cot6{
+    width: 61px;
+    border-right: 1px solid var(--mau5); 
+}
+.bo3 .content .left .bang table tbody tr .cot7{
+    width: 172px;
+}
+.bo3 .content .left .bang table tbody .hang1{
+    background-color: var(--maubackground3);
+    height: 48px;
+}
+.bo3 .content .left .bang table tbody .hang2{
+    background-color: var(--maubackground4);
+    height: 42px;
+}
+.bo3 .content .left .bang table tbody .hang3{
+    background-color: var(--maubackground3);
+    height: 48px;
+}
+.bo3 .content .left .bang table tbody .hang4{
+    background-color: var(--maubackground4);
+    height: 42px;
+}
+.bo3 .content .left .bang table tbody .hang5{
+    background-color: var(--maubackground3);
+    height: 48px;
+}
+.bo3 .content .left .bang table tbody .hang6{
+    background-color: var(--maubackground4);
+    height: 42px;
+}
+.bo3 .content .left .bang table tbody .hang7{
+    background-color: var(--maubackground3);
+    height: 48px;
+}
+.bo3 .content .left .bang table tbody .hang1 .cot4 div{
+    background-color: var(--mau6);
+    border-radius: 15px;
+    text-align:center;
+    line-height: 1.8;
+    color: white;
+}
+.bo3 .content .left .bang table tbody .hang2 .cot6 div{
+    background-color: var(--mau6);
+    border-radius: 15px;
+    text-align:center;
+    line-height: 1.8;
+    color: white;
+}
+.bo3 .content .left .bang table tbody .hang2 .cot7{
+    background-color: var(--mau6);
+    text-align:center;
+    line-height: 1.8;
+}
+.bo3 .content .left .bang table tbody .hang2 .cot7 div{
+    color: white;
+}
+.bo3 .content .left .bang table tbody .hang5 .cot4 div{
+    background-color: var(--mau6);
+    border-radius: 15px;
+    text-align:center;
+    line-height: 1.8;
+    color: white;
+}
+/* hết tbody */
+/* hết bảng 1 */
+.bang2{
+    width: 794px;
+    margin-top: 37px;;
+}
+.bang2 .td{
+    width: 794px;
+    height: 41px;
+    display: flex;
+}
+.bang2 .td .text1{
+    width: 440px;
+    height: 41px;
+    background-color: var(--maubackground4);
+    position: relative;
+}
+.bang2 .td .text1 span{
+    display: block;
+    position: absolute;
+    left:12px;
+    width: 440px;
+    height: 41px;
+    line-height: 41px;
+    color: var(--mau7);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang2 .td .text2{
+    width: 205px;
+    height: 41px;
+    background-color: var(--maubackground5);
+    position: relative;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bang2 .td .text2 img{
+    position: absolute;
+    left:8px;
+    top:8px;
+}
+.bang2 .td .text2 span{
+    display: block;
+    position: absolute;
+    left :37px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--font1);
+    font-size: 13px;
+}
+.bang2 .td .text2::after{
+    content: "10";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: var(--mau3);
+    margin-top: -14px;
+    margin-left: 174px;
+    border-radius: 3px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.bang2 .td .text3{
+    width: 146px;
+    height: 41px;
+    margin-left: 3px;
+    background-color: var(--maubackground6);
+    position: relative;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bang2 .td .text3 img{
+    position: absolute;
+    left:8px;
+    top:8px;
+}
+.bang2 .td .text3 span{
+    display: block;
+    position: absolute;
+    left :37px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: var(--mau7);
+    font-family: var(--font1);
+    font-size: 13px;
+}
+.bang2 .td .text3::after{
+    content: "5";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: var(--mau4);
+    margin-top: -14px;
+    margin-left: 135px;
+    border-radius: 3px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+/* hết tiêu đề bảng 2 */
+.bang2 table{
+    margin-top: 5px;
+    width: 794px;
+    border-collapse: collapse;
+}
+.bang2 table thead{
+    width: 758px;
+    height: 31px;
+}
+.bang2 table thead tr{
+    width: 758px;
+    height: 31px;
+    background-color: var(--maubackground6);
+}
+.bang2 table thead tr td{
+   position: relative; 
+   border-right: 1px solid white;
+}
+.bang2 table thead tr td span{
+    position: absolute;
+    display: block;
+    left: 8px;
+    top: 8px;
+    color: var(--mau7);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang2 table thead tr td img{
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+.bang2 table thead tr .cot1{
+    width: 38px;
+}
+.bang2 table thead tr .cot2{
+    width: 449px;
+}
+.bang2 table thead tr .cot3{
+    width: 143px;
+}
+.bang2 table thead tr .cot4{
+    width: 109px;
+}
+.bang2 table thead tr .cot5{
+    width: 51px;
+}
+.bang2 table tbody tr td{
+    position: relative;
+}
+.bang2 table tbody tr td span{
+    position: absolute;
+    display: block;
+    left: 8px;
+    top: 0px;
+    color: var(--mau7);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang2 table tbody tr:nth-child(odd) td span{
+    line-height: 46px;
+}
+.bang2 table tbody tr:nth-child(even) td span{
+    line-height: 43px;
+}
+.bang2 table tbody tr:nth-child(even) .cot2 span{
+    line-height: 19px;
+}
+.bang2 table tbody tr td img{
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+.bang2 table tbody tr:nth-child(odd) td .mau{
+    background-color: var(--maubackground8);
+    border-radius: 6px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 85px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+}
+.bang2 table tbody tr:nth-child(odd) td{
+    border-right: 1px solid var(--mau5);
+}
+.bang2 table tbody tr:nth-child(odd) .cot5{
+    border-right: 0;
+}
+.bang2 table tbody tr:nth-child(even) td{
+    border-right: 1px solid white;
+}
+.bang2 table tbody tr:nth-child(even) td .mau{
+    background-color: var(--maubackground5);
+    border-radius: 6px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 90px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+}
+.bang2 table tbody tr .cot3 .sp1{
+    top:7px;
+    left: 8px;
+    position: absolute;
+    display: block;
+    color: var(--mau7);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}   
+.bang2 table tbody tr:nth-child(even) .cot3 .sp2{
+    top:20px;
+    left: 8px;
+    position: absolute;
+    display: block;
+    color: var(--mauhovermenu);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang2 table tbody tr:nth-child(odd) .cot3 .sp2{
+    top:20px;
+    left: 8px;
+    position: absolute;
+    display: block;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang2 table tbody tr:nth-child(odd) .cot1::after{
+    content: " ";
+    width: 4px;
+    height: 42px;
+    background-color: red;
+    position: absolute;
+    top: 2px;
+}
+.bang2 table tbody tr:nth-child(1) .cot1::after{
+    content: " ";
+    width: 4px;
+    height: 42px;
+    visibility: hidden;
+    position: absolute;
+    top: 2px;
+}
+.bang2 table tbody tr:nth-child(1) .cot2 span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bang2 table tbody tr:nth-child(1) .cot3 span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bang2 table tbody tr:nth-child(1) td .mau{
+    background-color: var(--maubackground7);
+    width: 80px;
+}
+.bang2 table tbody tr:nth-child(5) td .mau{
+    background-color: var(--mau4);
+    width: 80px;
+}
+.bang2 table tbody tr:nth-child(odd){
+    height: 46px;
+    background-color: white;
+}
+.bang2 table tbody tr:nth-child(even){
+    height: 43px;
+    background-color: var(--maubackground4);
+}
+/* hết bảng 2 */
+.bang3{
+    width: 794px;
+    margin-top: 52px;;
+}
+.bang3 .td{
+    width: 794px;
+    height: 41px;
+    display: flex;
+}
+.bang3 .td .text1{
+    width: 440px;
+    height: 41px;
+    background-color: var(--maubackground4);
+    position: relative;
+}
+.bang3 .td .text1 span{
+    display: block;
+    position: absolute;
+    left:12px;
+    width: 440px;
+    height: 41px;
+    line-height: 41px;
+    color: var(--mau7);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang3 .td .text2{
+    width: 205px;
+    height: 41px;
+    background-color: #229daf;
+    position: relative;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bang3 .td .text2 img{
+    position: absolute;
+    left:8px;
+    top:8px;
+}
+.bang3 .td .text2 span{
+    display: block;
+    position: absolute;
+    left :37px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--font1);
+    font-size: 13px;
+}
+.bang3 .td .text2::after{
+    content: "5 ";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: var(--mau3);
+    margin-top: -14px;
+    margin-left: 174px;
+    border-radius: 3px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.bang3 .td .text3{
+    width: 146px;
+    height: 41px;
+    margin-left: 3px;
+    background-color: var(--maubackground6);
+    position: relative;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bang3 .td .text3 img{
+    position: absolute;
+    left:8px;
+    top:8px;
+}
+.bang3 .td .text3 span{
+    display: block;
+    position: absolute;
+    left :37px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: var(--mau7);
+    font-family: var(--font1);
+    font-size: 13px;
+}
+.bang3 .td .text3::after{
+    content: "5";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background-color: var(--mau4);
+    margin-top: -14px;
+    margin-left: 135px;
+    border-radius: 3px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+/* hết tiêu đề bảng 3 */
+.bang3 table{
+    margin-top: 5px;
+    width: 794px;
+    border-collapse: collapse;
+}
+.bang3 table thead{
+    width: 758px;
+    height: 31px;
+}
+.bang3 table thead tr{
+    width: 758px;
+    height: 31px;
+    background-color: var(--maubackground6);
+}
+.bang3 table thead tr td{
+   position: relative; 
+}
+.bang3 table thead tr td span{
+    position: absolute;
+    display: block;
+    left: 8px;
+    top: 8px;
+    color: var(--mau7);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang3 table thead tr td img{
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+.bang3 table thead tr .cot1{
+    width: 38px;
+}
+.bang3 table thead tr .cot1_2{
+    width: 92px;
+}
+.bang3 table thead tr .cot2{
+    width: 356px;
+}
+.bang3 table thead tr .cot3{
+    width: 143px;
+}
+.bang3 table thead tr .cot4{
+    width: 109px;
+}
+.bang3 table thead tr .cot5{
+    width: 51px;
+}
+.bang3 table tbody tr td{
+    position: relative;
+}
+.bang3 table tbody tr td span{
+    position: absolute;
+    display: block;
+    left: 8px;
+    top: 0px;
+    color: var(--mau7);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang3 table tbody tr:nth-child(odd) td span{
+    line-height: 46px;
+}
+.bang3 table tbody tr:nth-child(even) td span{
+    line-height: 43px;
+}
+.bang3 table tbody tr:nth-child(even) .cot2 span{
+    line-height: 19px;
+}
+.bang3 table tbody tr td img{
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+.bang3 table tbody tr:nth-child(odd) td .mau{
+    background-color: var(--maubackground8);
+    border-radius: 6px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 85px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+}
+.bang3 table tbody tr:nth-child(even) td .mau{
+    background-color: var(--maubackground5);
+    border-radius: 6px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 90px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+}
+.bang3 table tbody tr .cot3 .sp1{
+    top:7px;
+    left: 8px;
+    position: absolute;
+    display: block;
+    color: var(--mau7);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}   
+.bang3 table tbody tr:nth-child(even) .cot3 .sp2{
+    top:20px;
+    left: 8px;
+    position: absolute;
+    display: block;
+    color: var(--mauhovermenu);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang3 table tbody tr:nth-child(odd) .cot3 .sp2{
+    top:20px;
+    left: 8px;
+    position: absolute;
+    display: block;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font1);
+}
+.bang3 table tbody tr:nth-child(odd) .cot1::after{
+    content: " ";
+    width: 4px;
+    height: 42px;
+    background-color: red;
+    position: absolute;
+    top: 2px;
+}
+.bang3 table tbody tr:nth-child(1) .cot1::after{
+    content: " ";
+    width: 4px;
+    height: 42px;
+    visibility: hidden;
+    position: absolute;
+    top: 2px;
+}
+.bang3 table tbody tr:nth-child(1) .cot2 span{
+    font-weight: 700;
+}
+.bang3 table tbody tr:nth-child(1) .cot3 span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bang3 table tbody tr:nth-child(1) td .mau{
+    background-color: var(--maubackground7);
+    width: 80px;
+}
+.bang3 table tbody tr:nth-child(5) td .mau{
+    background-color: var(--mau4);
+    width: 80px;
+}
+.bang3 table tbody tr:nth-child(odd){
+    height: 46px;
+    background-color: white;
+}
+.bang3 table tbody tr:nth-child(even){
+    height: 43px;
+    background-color: var(--maubackground4);
+}
+.bang3 table tbody tr:nth-child(odd) td{
+    border-right: 1px solid var(--mau5);
+}
+.bang3 table tbody tr:nth-child(odd) .cot5{
+    border-right: 0;
+}
+.bang3 table tbody tr:nth-child(even) td{
+    border-right: 1px solid white;
+}
+.bang3 table tbody tr .cot1_2 span{
+    font-size: 10px;
+}
+.bo3 .content .right{
+    position: absolute;
+    top: 48px;
+    right: 64px;
+    width: 377px;
+    overflow: hidden;
+}
+.bo3 .content .right .div1{
+    position: relative;
+    height: 150px;
+    background-color: var(--maubackground4);
+}
+.bo3 .content .right .div1 img{
+    position: absolute;
+    left: 15px;
+    top: 20px;  
+}
+.bo3 .content .right .div1 .text1{
+    position: absolute;
+    left: 38%;
+    width: 50px;
+    height: 100%;
+}
+.bo3 .content .right .div1 .text1::after{
+    content: "%";
+    color: var(--mau2);
+    font-family: var(--font1);
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    font-weight: 700;
+}
+.bo3 .content .right .div1 .text1 span{
+    color: var(--maubackground2);
+    font-size: 44px;
+    font-weight: 700;
+    font-family: var(--font1);
+    text-align: center;
+    line-height: 150px;
+}
+.bo3 .content .right .div1 .text2{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    width: 100px;
+}
+.bo3 .content .right .div1 .text2 span{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--font1);
+    text-transform: uppercase;
+    line-height: 10px;
+}
+.bo3 .content .right .div2{
+    width: 374px;
+    height: 182px;
+    margin-top: 30px;
+    position: relative;
+}
+.bo3 .content .right .div2 div{
+    width: 173px;
+    height: 84px;
+    border-radius: 8px;
+    position: absolute;
+}
+.bo3 .content .right .div2 div img{
+    position: absolute;
+    left: 55px;
+    top: 10px;
+}
+.bo3 .content .right .div2 div span{
+    position: absolute;
+    width: 100%;
+    top: 47px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: var(--font1);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.bo3 .content .right .div2 .div2_1{
+    background-color: #ec5a27;
+    top:0px;
+}
+.bo3 .content .right .div2 .div2_2{
+    background-color: #1baa52;
+    right:0;
+    top:0px;
+}
+.bo3 .content .right .div2 .div2_3{
+    background-color: #fb5295;
+    bottom:0;
+}
+.bo3 .content .right .div2 .div2_4{
+    background-color: #d4b50f;
+    right:0;
+    bottom:0;
+}
+/* hết div2 */
+.bo3 .content .right .div3{
+    width: 374px;
+    height: 90px;
+    position: relative;
+    background-color: #f3f2f2;
+}
+.bo3 .content .right .div3 img{
+   width: 20px;
+   height: 24px;
+   margin-top: 6px;
+}
+.bo3 .content .right .div3 .div3_1{
+    display: flex;
+    position: absolute;
+    top:10%;
+    left:5%;
+    width: 400px;
+}
+.bo3 .content .right .div3 .text{
+    margin-left: 10px;
+}
+.bo3 .content .right .div3 .div3_2 .text .sp1{
+    color: var(--mau3);
+}
+.bo3 .content .right .div3 span{
+    line-height: 39px;
+}
+.bo3 .content .right .div3 .div3_2{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left:5%;
+    width: 400px;
+}
+.bo3 .content .right .div3 .div3_2 a{
+    text-decoration: none;
+}
+/* hết div3 */
+.bo3 .content .right .div4{
+    position: relative;
+    margin-top: 20px;
+}
+.bo3 .content .right .div4 .con1{
+    background-color: #3594b0;
+    height: 62px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.bo3 .content .right .div4 .con1 img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.bo3 .content .right .div4 .con1 .text{
+    position: absolute;
+    height: 62px;
+    left: 60px;
+    width: 380px;
+}
+.bo3 .content .right .div4 .con1 .text span{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 62px;
+}
+.bo3 .content .right .div4 div{
+    height: 40px;
+    margin-top: 5px;
+}
+.bo3 .content .right .div4 .text{
+    font-size: 14px;
+    position: absolute;
+    left:20px;
+    width: 400px;
+}
+.bo3 .content .right .div4 .hs{
+    position: absolute;
+    left:20px;
+    margin-top: 20px;
+    display: flex;
+}
+.bo3 .content .right .div4  .hs .h{
+    display: flex;
+    width: 260px;
+}
+.bo3 .content .right .div4  .hs .s{
+    margin-left:20px;
+    margin-top:8px;
+}
+.bo3 .content .right .div4 .con2 .hs .h .h1{
+    border-top: 13px solid #7edaf1;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent; 
+    height: 0;
+    width: 195px; 
+}
+.bo3 .content .right .div4 .con2 .hs .h .h2{
+    border-bottom: 13px solid #359fb9;
+    border-right: 0px solid transparent;
+    border-left: 10px solid transparent; 
+    height: 0;
+    width: 65px;
+    margin-left: -10px;
+}
+.bo3 .content .right .div4 .con3 .hs .h .h1{
+    border-top: 13px solid #ff708e;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent; 
+    height: 0;
+    width: 182px; 
+}
+.bo3 .content .right .div4 .con3 .hs .h .h2{
+    border-bottom: 13px solid #f01945;
+    border-right: 0px solid transparent;
+    border-left: 10px solid transparent; 
+    height: 0;
+    width: 78px;
+    margin-left: -10px;
+}
+.bo3 .content .right .div4 .con4 .hs .h .h1{
+    border-top: 13px solid #46dd7e;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent; 
+    height: 0;
+    width: 149.5px; 
+}
+.bo3 .content .right .div4 .con4 .hs .h .h2{
+    border-bottom: 13px solid #1baa50;
+    border-right: 0px solid transparent;
+    border-left: 10px solid transparent; 
+    height: 0;
+    width: 110.5px;
+    margin-left: -10px;
+}
+.bo3 .content .right .div4 .con5 .hs .h .h1{
+    border-top: 13px solid #ffea7d;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent; 
+    height: 0;
+    width: 179.4px; 
+}
+.bo3 .content .right .div4 .con5 .hs .h .h2{
+    border-bottom: 13px solid #efcf18;
+    border-right: 0px solid transparent;
+    border-left: 10px solid transparent; 
+    height: 0;
+    width: 80.6px;
+    margin-left: -10px;
+}
+/* hết div4 */
+.bo3 .content .right .div5{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bo3 .content .right .div5 .con1{
+    background-color: #1f9fde;
+    height: 62px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 377px; ;
+}
+.bo3 .content .right .div5 .con1 img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.bo3 .content .right .div5 .con1 .text{
+    position: absolute;
+    line-height: 62px;
+    left: 60px;
+    top: 19px;
+    width: 200px;
+}
+.bo3 .content .right .div5 .con1 .text span{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.bo3 .content .right .div5 div{
+    width: 188px;
+    display: flex;
+    position: relative;
+}
+.bo3 .content .right .div5 .so{
+    background-color: #228aa5;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.bo3 .content .right .div5 .so span{
+    line-height: 30px;
+    color: white;
+    display: block;
+    margin-left: 6px;
+}
+.bo3 .content .right .div5 .text{
+    width: 115px;
+    margin-left: 10px;
+    margin-top: -6px;
+}
+.bo3 .content .right .div5 .text span{
+    font-size: 13px;
+    font-family: var(--font1);
+    line-height: 39px;
+}
+.bo3 .content .right .div5 .con3 .so{
+    background-color: #37afae;
+}
+.bo3 .content .right .div5 .con4 .so{
+    background-color: #f01945;
+}
+.bo3 .content .right .div5 .con5 .so{
+    background-color: #35b139;
+}
+.bo3 .content .right .div5 .con6 .so{
+    background-color: #d5b60e;
+}
+.bo3 .content .right .div5 .con3 .text{
+    width: 118px;
+}
+.bo3 .content .right .div5 .con6 .text{
+    width: 200px;
+}
+.bo3 .content .right .div5 .con6{
+    width: 300px;
+}
+/* hết div5 */
+.bo3 .content .right .div6{
+    width: 100%;
+}
+.bo3 .content .right .div6 .td{
+    height: 68px;
+    width: 100%;
+    background: #1a335b;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.bo3 .content .right .div6 .td img{
+    position: absolute;
+    top:16px;
+    left: 10px;
+}
+.bo3 .content .right .div6 .td .text{
+    position: absolute;
+    left: 80px;
+    width: 370px;
+}
+.bo3 .content .right .div6 .td .text span{
+    font-family: var(--font1);
+    font-size: 20px;
+    line-height: 68px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.bo3 .content .right .div6 .nd{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bo3 .content .right .div6 .con1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+}
+.bo3 .content .right .div6 .con1 .text{
+    width: 200px;
+}
+.bo3 .content .right .div6 .con1 .text span{
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.bo3 .content .right .div6 .con1 .icon1{
+    width: 50px;
+}
+.bo3 .content .right .div6 .con1 .icon2{
+    display: flex;
+    width: 85px;
+    justify-content: space-between;
+}
+.bo3 .content .right .div6 .con1 a{
+    text-decoration: none;
+}
+.bo3 .content .right .div6 .con2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.bo3 .content .right .div6 .con2 .text1{
+    width: 200px;
+}
+.bo3 .content .right .div6 .con2 .text1 span{
+    text-transform: uppercase;
+    font-family: var(--font1);
+    font-size: 16px;
+}
+.bo3 .content .right .div6 .con2 a .text2{
+    width:100px;
+}
+.bo3 .content .right .div6 .con2 a .text2 span{
+    font-family: var(--font1);
+    font-size: 13px;
+    text-align: right;
+    display: block;
+    color: var(--mau7);
+}
+.bo3 .content .right .div6 .con3{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 10px;
+}
+.bo3 .content .right .div6 .con3 .trai{
+    display: flex;
+    width: 200px;
+}
+.bo3 .content .right .div6 .con3 .trai .text{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.bo3 .content .right .div6 .con3 .trai .text >span{
+    
+    text-transform: uppercase;
+    font-size: 10px;
+    display: block;
+    line-height: 10px;
+}
+.bo3 .content .right .div6 .con3 .trai .text >span >span{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: block;
+    color: #7f7f7f;;
+}
+.bo3 .content .right .div6 .con3 .phai{
+    margin-top: 20px;
+}
+.cuoitrang{
+    margin-top: 10px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cuoitrang .trai{
+    width: 500px;
+}
+.cuoitrang .trai span{
+    color: white;
+    font-size: 11px;
+    font-family: var(--font1);
+}
+.cuoitrang .phai{
+    display: flex;
+    justify-content: space-between;
+}
+.cuoitrang .phai .phai1{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+.cuoitrang .phai .phai1 span{
+    color: white;
+    font-size: 13px;
+    font-family: var(--font1);
+}
+.cuoitrang .phai .phai1 .text2{}
+.cuoitrang .phai .phai1 .text3{}
+.cuoitrang .phai .phai2{
+    width: 200px;
+    margin-top: 5px;
+}
+.cuoitrang .phai .phai2 span{
+    text-align: right;
+    display: block;
+    color: #79823f;
+    font-size: 14px;
+}
+#style-1::-webkit-scrollbar-thumb {
+    background-color: yellowgreen
+    ;
+}
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: white;
+}

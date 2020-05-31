@@ -1,0 +1,30 @@
+.menutren{
+    background-color: #2FA1B3;
+    width: 100%;
+    height: 30px;
+}
+.menungang{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menungang a{
+    text-decoration: none;
+    color: white;
+    font-family:segue ui light;
+    font-size: 13px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    display: block;
+    transition: 0.3s;
+}
+ul.menungang a:hover{
+    background-color: rgb(47, 135, 185);
+    padding-bottom: 8px;
+    padding-top: 6px;
+}

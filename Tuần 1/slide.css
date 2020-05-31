@@ -1,0 +1,11 @@
+.mycss{
+    width: 585px;
+    height: 362px;
+}
+.mycss img{
+    width: 585px;
+    height: 362px;
+}
+.mycss .carousel-indicators{
+    display: none;
+}

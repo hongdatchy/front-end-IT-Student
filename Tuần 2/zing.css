@@ -1,0 +1,41 @@
+.bo{
+    width: 181px;
+    height: 181px;
+    position: relative;
+    overflow: hidden;
+}
+.bo .lop1{
+    width: 181px;
+    height: 181px;
+    transform: scale(1);
+    transition: 0.4s;
+}
+.bo:hover .lop1{
+    transform: scale(1.333);
+} 
+
+.bo .lop2{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
+.bo:hover .lop2{
+    opacity: 0.4;
+}
+.bo .lop3{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    opacity: 0;
+    transition:0.4s;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}

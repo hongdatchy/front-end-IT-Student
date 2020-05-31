@@ -1,0 +1,128 @@
+*{  
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --mau1:#ffffff;
+    --mau2:rgb(124, 120, 120);
+}
+.benner{
+    background:url(4.jpg);
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+.benner::before{
+    content: '';
+    background-image:-webkit-linear-gradient(left, /* #0000009e */rgba(116, 12, 12, 0.527), #201e201a, #00000078);
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.benner .tren{
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.benner .tren ._1cot{
+    width: 33.33%;
+    
+}
+.benner .tren ._1cot.trai{
+    padding-left: 40px;
+    padding-top:10px;
+}
+.benner .tren ._1cot.trai i{
+    color: var(--mau1);
+}
+.benner .tren ._1cot.giua{
+    text-align: center;
+}
+.benner .tren ._1cot.giua img{
+    width: 90px;
+    height: 27px;
+}
+.benner .tren ._1cot.phai{ 
+    display: block;
+    padding-right : 40px;
+    padding-top:10px;
+    text-align: right;
+}
+.benner .tren ._1cot.phai ._1cotnho{
+    color: var(--mau2);
+    font-size: 20px;
+    margin-left: 10px;
+}
+.benner .tren ._1cot.phai ._1cotnho:hover{
+    color: var(--mau1);
+}
+/* end benner tren */
+.benner .duoi{
+    width: 100%;
+    top:40%;
+    position: absolute;
+}
+.benner .duoi .text{
+    width: 1000px;
+    color: var(--mau1);
+    margin: auto;
+}
+.benner .duoi .text1{
+    width: 100%;
+    font-size: 20px;
+}
+.benner .duoi .text2{
+    margin-top: 10px;
+    width: 600px;
+    font-size: 38px;
+}
+/* end benner */
+.content{
+    width: 100%;
+}
+.content .text{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 20px;
+    color: var(--mau1);
+    display: flex;
+}
+.content .text .text1{
+    width: 35%;
+}
+.content .text .text1 p{
+    color: var(--mau2);
+}
+.content .text .text1 h2{
+    color: #2b2b2b;
+    font-size: 22px ;
+    font-family: Oswald;
+    margin-top: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 50%;
+    line-height: 1.7;
+}
+.content .text .text2{
+    color: var(--mau2);
+    width: 65%;
+}
+.content .text .text2 p{
+    margin-bottom: 13px;
+    line-height: 1.5;
+}
+.content .text .text2 p::before{
+    font-family: "Font Awesome 5 Pro";
+    /* sreach icon "long arrow" trên fontawesome rồi kiểm tra phần tử, vào thẻ i copy cái này ở trong phần css của nó */
+    content: "\f178";
+    /* sreach icon "long arrow" trên fontawesome rồi kiểm tra phần tử, vào thẻ i-> vào mũi tên cho nó sổ xuống-> vào ::before copy cái này ở trong phần css của nó */
+    position: relative;
+    left:-25px;
+    transition: 0.6s;
+}
+.content .text .text2 p:hover::before{
+    left:0;
+    transition: 0.6s;
+}

@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+	font-family: 'Montserrat', sans-serif;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.benner {
+    background-color: #7e4c2b;
+    height: 30px;
+}
+
+.benner .text {
+    color: white;
+    font-size: 11px;
+    line-height: 30px;
+    
+}
+.benner ._4icon{
+	float: right;
+	font-size: 12px;
+	line-height: 30px;
+}
+._4icon i {
+    margin-left: 6px;
+    color: white;
+}
+.menu{
+	position: relative;
+	width: 100%;
+	z-index:5;
+}
+
+.menuto{
+	height: 125px;
+}
+.menunho{
+	margin-top: -30px;
+	height: 70px;
+	position: fixed;
+	background: white;
+	animation: menunho 0.5s forwards;
+}
+@-webkit-keyframes menunho{
+	0%{transform: translateY(-70px); visibility: hidden}
+	100%{transform: translateX(0); visibility: visible;}
+}
+nav.navbar.navbar-light.bg-faded.container {
+    height: 100%;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    height: 100%;
+}
+div#exCollapsingNavbar2 {
+    height: 100%;
+}
+li.nav-item {
+    height: 100%;
+}
+.menu img {
+    height: 125px;
+    width: 193px;
+    transform-origin: 50% 0%;
+}
+ul.nav.navbar-nav.hidden-ms-down.float-md-right.ato {
+    height: 100%;
+}
+.menu .imgto{
+	transform: scale(0.55);
+}
+
+.menu .imgnho{
+    animation: imgnho 0.5s forwards;
+}
+@-webkit-keyframes imgnho{
+	0%{transform: scale(0.55); visibility: visible}
+	100%{transform: scale(1); visibility: visible;}
+}
+.bg-faded {
+    
+    padding: 0;
+}
+.menu .container{
+	padding: 0!important;
+}
+a.nav-link {
+    font-weight: 700;
+}
+.ato {
+    line-height: 125px;
+    margin-left: 13px;
+}
+.anho {
+    line-height: 70px;
+}
+.menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #bf262b;
+}
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+button.navbar-toggler.hidden-md-up {
+    position: absolute;
+    background-color: #7e4c2b;
+    font-size: 15px;
+    color: white;
+    background-image: none;
+    z-index: 5;
+    left: 6px;
+    top: 50%;
+    margin-top: -15px;
+    height: 30px;
+}
+@media only screen and (max-width: 992px ){
+	body .story .right{
+		margin-top: 10%;
+	}
+}
+@media only screen and (max-width: 767px){
+  	.menu .navbar a.navbar-brand{
+      	left: 50%;
+      	position: absolute;
+      	margin-left: -96px;
+  	}
+  	.benner .text{
+    	text-align: center;
+    }
+    body .silde{
+		height:500px;
+	}
+	body .story .right{
+		margin-top: 30%;
+	}
+}
+
+@media only screen and (max-width: 576px){
+  	button.navbar-toggler.hidden-md-up {
+  	}
+  	.menu{
+  		height: 70px;
+  	}
+  	.menu img{
+  		animation: imgtoo 0.5s forwards !important;
+  		transform-origin: 50% 0%;
+  	}
+  	@-webkit-keyframes imgtoo{
+		0%{transform: scale(1); visibility: visible}
+		100%{transform: scale(0.55); visibility: visible;}
+	}
+  	.menu .navbar a.navbar-brand{
+  		position: absolute;
+      	left: 50%;
+      	margin-left: -96px;
+
+    }
+	body .silde{
+		height:400px;
+	}
+	body .silde .cactext h2,body .silde .cactext p{
+	width: 100%;
+	}
+	body .story .right{
+		margin-top: 0%;
+	}
+}
+
+.silde {
+    background: #ded4d4;
+    width: 100%;
+    height: 729px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.silde:hover .next{
+   animation: cacnuthienlenmot 0.5s forwards;
+}
+
+@-webkit-keyframes cacnuthienlenmot{
+	0%{transform: translateX(-50px); visibility: hidden; opacity: 0}
+	100%{transform: translateX(0); visibility: visible; opacity: 1}
+}
+.silde:hover .prev{
+   animation: cacnuthienlenhai 0.5s forwards;
+}
+
+@-webkit-keyframes cacnuthienlenhai{
+	0%{transform: translateX(50px); visibility: hidden; opacity: 0}
+	100%{transform: translateX(0); visibility: visible; opacity: 1}
+}
+.silde .cacSlide {
+    width: 100%;
+    height: 100%;
+    
+}
+.silde .cacSlide ._1slide {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+._1slide img{
+	width: 100%;
+    height: 100%;
+}
+.silde .cacSlide .activeslide {
+    visibility: visible;
+}
+
+.cacnut {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.next, .nextDelay{
+    position: absolute;
+    top:45%;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.prev, .prevDelay {
+    position: absolute;
+    top:45%;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.next {
+    background: url(fancybox_sprite.png) 0% 60%;
+    background-size: 125% auto;
+    visibility: hidden;
+    z-index: 2;
+}
+.prev{
+
+    background: url(fancybox_sprite.png) 0% 31%;
+    background-size: 125% auto;
+    visibility: hidden;
+    z-index: 2;
+}
+.delayNut{
+	z-index: 3;
+}
+.cacnut ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+}
+.cacnut ul li{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin: 5px;
+	background: black;
+    border: solid 1px #151bce;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.cacnut ul li.xanh{
+	background: white;
+}
+/*next*/
+.sangtrai{
+	animation: sangtrai 0.3s forwards;
+}
+@-webkit-keyframes sangtrai{
+	0%{transform: translateX(0); visibility: visible}
+	100%{transform: translateX(-1350px); visibility: hidden}
+}
+
+.phaivao{
+	animation: phaivao 0.3s forwards;
+}
+@-webkit-keyframes phaivao{
+	0%{transform: translateX(1350px); opacity: 0; visibility: hidden;}
+	100%{transform: translateX(0); opacity: 1; visibility: visible;}
+}
+
+/*prev*/
+.sangphai{
+	animation: sangphai 0.3s forwards;
+}
+@-webkit-keyframes sangphai{
+	0%{transform: translateX(0); opacity: 1;  visibility: visible;}
+	100%{transform: translateX(1350px); opacity: 0; visibility: hidden;}
+}
+.traivao{
+	animation: traivao 0.3s forwards;
+}
+@-webkit-keyframes traivao{
+	0%{transform: translateX(-1350px); opacity: 0; visibility: hidden;}
+	100%{transform: translateX(0); opacity: 1;  visibility: visible;}
+}
+.silde .cactext{
+	z-index: 2;
+	position: absolute;
+	width:60%;
+	top: 50%;
+	margin-top: -61px;
+	text-align: center;
+	left: 20%;
+}
+.silde ._1slide:nth-child(1) .cactext{
+	left: 10%;
+	text-align: left;
+}
+.silde .cactext h2,.silde .cactext p{
+	width: 100%;
+}
+.silde .cactext h2 {
+	font-size: 2.9em;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.silde .cactext p {
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.story{
+	padding-top: 5%;
+	background-image: url(bgstory.jpg);
+}
+.story .left{
+}
+.story .left .div1{
+	font-size: 32px;
+    font-family: 'Charm';
+    color: #d9a868;
+    line-height: 30px;
+}
+.story .left .div2{
+    font-size: 45px;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.story .left .div3{
+	font-size: 15px;
+    color: #333;
+}
+.story .left .div4{}
+.story .right{
+	width: 100%;
+}
+.story .right img{
+	width: 100%;
+}
+.ourmenu{
+	height: 660px;
+	margin-top: 64px;
+}
+.ourmenu .tren{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.ourmenu .tren .div1{
+	font-size: 32px;
+    font-family: 'Charm';
+    color: #d9a868;
+    line-height: 30px;
+}
+.ourmenu .tren .div2{
+	font-size: 45px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ourmenu .tren .div3{
+	position: absolute;
+	height: 2px;
+	width: 130px;
+	background-color: rgb(126, 190, 197);
+	left: 50%;
+	margin-left: -50px;
+}
+.ourmenu ul{
+	list-style: none;
+}
+.ourmenu ul li{
+	height: 310px;
+}
+.ourmenu ul li:hover img{
+	height: 310px;
+	transform: scale(1.1);
+	transition: 0.4s
+
+}
+@-webkit-keyframes ourmenuhover{
+	0%{}
+	100%{transform: scale(1.1);}
+}
+/*div này để chỉnh khoảng cách của 2 hàng*/
+.ourmenu ul li .col-inner{
+	height: 265px;
+	overflow: hidden;
+}
+.ourmenu ul li img{
+	max-height: 265px;
+}
+.ourmenu ul li img{
+	width: 100%;
+	min-height: 265px;
+	transform: scale(1);
+	transition: 0.4s
+}
+
+.ourmenu ul .text h2{
+	line-height: 1.3;
+    margin-top: .1em;
+    margin-bottom: .1em;
+    font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+.ourmenu ul .text{
+	position: absolute;
+	left: 10%;
+	bottom: 20%;
+	background: white;
+	width: 165px;
+	height: 75px;
+	text-align: center;
+}
+.open{
+	
+	margin-top: 100px;
+	height:1000px;
+	background: url(khoibackgroud.jpg);
+	background-size: cover;
+	/* transform: translateZ(-1000px); */
+
+}
+.open h2{
+
+}
+.open p{}
+.open .datban{}
