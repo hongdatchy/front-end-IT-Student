@@ -1,0 +1,40 @@
+#site-form{
+    background-color: #794b6f;
+    padding: 30px;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0
+}
+.container{
+    border: 1px white solid;
+    height: 100%;
+    max-width: 100% !important;
+}
+#intro-from{
+    font-size: 40px;
+    line-height: 70px;
+}
+span{
+    display: block;
+    background-color: white;
+    color: #794b6f;
+}
+#content-from{
+    background-color: white;
+    padding: 50px 5%;
+}
+.row{
+    height: 100%;
+}
+.title-form{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 128, 0, 0.562);
+}
+.alert{
+    z-index: 1000 !important;
+    
+}
